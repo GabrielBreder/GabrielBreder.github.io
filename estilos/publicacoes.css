@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(155, 184, 221);
+}
+
+section {
+    width: 80%;
+    height: 900px;
+
+    margin: 0 auto;
+}
+
+#publicacoes-icone {
+    background-color: #1c5d80;
+    border-bottom: rgb(233, 203, 103) 4px solid;
+
+    border-radius: 5px 5px 0 0;
+}
+
+.publicacao {
+    width: 32%;
+    min-height: 450px;
+
+    float: left;
+    margin: 20px 0.5% 0;
+
+    background-color: honeydew;
+    box-shadow: rgba(0, 0, 0, 0.432) 0px 0px 5px;
+
+    box-sizing: border-box;
+    padding: 10px;
+
+    border-radius: 5px;
+
+    font-size: 16.5px;
+}
+
+.publicacao a {
+    text-decoration: none;
+}
+
+.imagem-localizacao {
+    text-align: center;
+}
+
+.imagem-localizacao img{
+    width: 80%;
+
+    margin: 5px 0 0 0;
+}
+
+.imagem-localizacao p:hover {
+    text-decoration: underline;
+    text-decoration-color: #cf6d6d;
+}
+
+#localizacao {
+    text-align: center;
+}
+
+#localizacao a {
+    margin: 10px 0 0 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#localizacao img {
+    width: 25px;
+    margin: 0;
+}
+
+#localizacao p {
+    max-width: 70%;
+    margin: 0;
+
+    font-family: 'Helvetica Neue';
+    font-weight: 550;
+    color: #b82828;
+}
+
+.descricao {
+    margin-top: 20px;
+
+    font-family: Arial;
+}
+.detalhes {
+    text-align: center;
+}
+.detalhes p {
+    color: #003088;
+    
+    margin-top: 20px;
+    
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.detalhes p:hover {
+    text-decoration: underline;
+    text-decoration-color: #3d68b9;
+}

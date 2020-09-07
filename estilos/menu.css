@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#menu {
+    background-color: #005583;
+
+    height: 75px;
+
+    position: -webkit-sticky;
+    position: sticky;
+
+    top: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li { 
+    margin: 2px auto;
+}
+
+.icones-menu {
+    text-align: center;
+    text-decoration: none;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.icones-menu p {
+    margin: 3px auto;
+}
+
+.icones-menu img {
+    margin: 0 auto;
+}
+
+.icons {
+    width: 90px;
+    height: 47px;
+}
