@@ -17,8 +17,8 @@ section {
 }
 
 #landing {
-    background-image: url(images/fundo.jpg);
-    background-color: red;
+    background-image: url(../images/fundo.jpg);
+    
     background-size: cover;
     background-repeat: no-repeat;
 
