@@ -10,33 +10,53 @@
 </head>
 <body>
     <div id="menu">
-        <ul>
-            <li id="sobre">
-                <a class="icones-menu" href="index.html">
-                    <img class="icons" src="images/sobre.svg" alt="sobre">
-                    <p>Sobre</p>
-                </a>
-            </li>
-            <li>
-                <a class="icones-menu" id="publicacoes-icone">
-                    <img class="icons" src="images/publicacao.svg" alt="publicações">
-                    <p>Publicações</p>
-                </a>
-            </li>
-            <li>
-                <a class="icones-menu" href="divulgue.html">
-                    <img class="icons" src="images/divulgue.svg" alt="divulgue">
-                    <p>Divulgue</p>
-                </a>
-            </li>
-        </ul>
+        <div id="div-logo">
+            <a href="index.html">
+                <img id="icone-logo" src="images/logo.png" alt="erradica">
+            </a>
+        </div>
+        <div id="paginas">
+            <ul>
+                <li>
+                    <a class="icones-menu" id="sobre-icone" href="sobre.html">
+                        <img class="icons" src="images/sobre.svg" alt="sobre">
+                        <p>Sobre</p>
+                    </a>
+                </li>
+                <li>
+                    <a  class="icones-menu" id="publicacoes-icone">
+                        <img class="icons" src="images/publicacao.svg" alt="publicações">
+                        <p>Publicações</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="icones-menu" href="divulgue.html">
+                        <img class="icons" src="images/divulgue.svg" alt="divulgue">
+                        <p>Divulgue</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="filtrar">
+        <p>Filtrar:</p>
+        <select name="pais" id="pais">
+            <option value="país" hidden>Selecione um país</option>
+        </select>
+        <select name="estado" id="estado">
+            <option value="estado" hidden>Selecione um estado</option>
+        </select>
+        <select name="cidade" id="cidade">
+            <option value="cidade" hidden>Selecione uma cidade</option>
+        </select>
     </div>
 
     <section>
         <div id="serra-leoa" class="publicacao">
             <div class="imagem-localizacao">
                 <img src="images/serra-leoa.jpg" alt="Serra Leoa">
-                <div id="localizacao">
+                <div class="localizacao">
                     <a href="https://goo.gl/maps/1UtcG6kkrgF3ejx99">
                         <img src="images/localizacao.svg" alt="Serra Leoa, Africa">
                         <p>Serra Leoa - África</p>
@@ -44,16 +64,17 @@
                 </div>
             </div>
             <p class="descricao">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus alias reprehenderit praesentium labore. Blanditiis, esse non atque voluptatem consequatur, quisquam nesciunt sed incidunt magni deleniti tempora, eligendi ratione expedita accusamus!
+                Em meio à pobreza extrema, 70% da população de Serra Leoa sofre sobrevivendo com menos de dois euros por dia(aproximadamente 13 reais). <br><br>
+                A mortalidade infantil do país é a segunda maior do mundo.
             </p>
-            <a href="" class="detalhes">
-                <p>Ver detalhes</p>
+            <a href="detalhes/serra-leoa.html" class="detalhes">
+                <p id="detalhes-serra-leoa">Ver detalhes</p>
             </a>
         </div>
         <div id="rio-de-janeiro" class="publicacao">
             <div class="imagem-localizacao">
-                <img src="images/rio-de-janeiro.jpg" alt="Rio de Janeiro">
-                <div id="localizacao">
+                <img src="images/rio-de-janeiro.jpg" alt="Brasil">
+                <div class="localizacao">
                     <a href="https://goo.gl/maps/7E5CtCNvfeqMEXvZ8">
                         <img src="images/localizacao.svg" alt="Brasil, America do Sul">
                         <p>Brasil - América do Sul</p>
@@ -61,33 +82,34 @@
                 </div>
             </div>
             <p class="descricao">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus alias reprehenderit praesentium labore. Blanditiis, esse non atque voluptatem consequatur, quisquam nesciunt sed incidunt magni deleniti tempora, eligendi ratione expedita accusamus!
+                O Brasil é um país emergente e mesmo com uma economia relativamente estável ainda apresenta casos de pobreza extrema. <br><br>
+                Estudos de 2019 mostram que aproximadamente 13,5 milhões de brasileiros sobrevivem com menos de 145 reais mensais.<br><br>
             </p>
-            <a href="" class="detalhes">
+            <a href="detalhes/brasil.html" class="detalhes">
                 <p>Ver detalhes</p>
             </a>
         </div>
-        <div id="bongabong" class="publicacao">
+        <div id="uganda" class="publicacao">
             <div class="imagem-localizacao">
-                <img src="images/bongabong.jpg" alt="Filipinas, Ásia">
-                <div id="localizacao">
-                    <a href="https://goo.gl/maps/nj9h8BXnkomuxngn7">
+                <img src="images/uganda.jpg" alt="Uganda, África">
+                <div class="localizacao">
+                    <a href="https://goo.gl/maps/9apMczT4roL9cbSHA">
                         <img src="images/localizacao.svg" alt="Filipinas">
-                        <p>Filipinas - Ásia</p>
+                        <p>Uganda - África</p>
                     </a>
                 </div>
             </div>
             <p class="descricao">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus alias reprehenderit praesentium labore. Blanditiis, esse non atque voluptatem consequatur, quisquam nesciunt sed incidunt magni deleniti tempora, eligendi ratione expedita accusamus!
+                Uganda esteve em um progresso para a erradicação da pobreza com diminuições significativas do número de pessoas que vivem na linha de pobreza extrema no país até o ano de 2013(19,7%), porém em 2017 dados revelaram um aumento nesse número, passando para 27%.
             </p>
-            <a href="" class="detalhes">
+            <a href="detalhes/uganda.html" class="detalhes">
                 <p>Ver detalhes</p>
             </a>
         </div>
         <div id="bongabong" class="publicacao">
             <div class="imagem-localizacao">
                 <img src="images/cidade-de-ho-chi-minh.jpg" alt="Vietnã, Ásia">
-                <div id="localizacao">
+                <div class="localizacao">
                     <a href="https://goo.gl/maps/DnV1dHhhpGdVX6pu9">
                         <img src="images/localizacao.svg" alt="Vietnã">
                         <p>Vietnã - Ásia</p>
@@ -95,9 +117,9 @@
                 </div>
             </div>
             <p class="descricao">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus alias reprehenderit praesentium labore. Blanditiis, esse non atque voluptatem consequatur, quisquam nesciunt sed incidunt magni deleniti tempora, eligendi ratione expedita accusamus!
+                Vietnã apresenta 20% de pessoas em situação de pobreza extrema, esses dados reduziram muito desde 1993 em que a população que vivia em pobreza extrema era de 58%. 
             </p>
-            <a href="" class="detalhes">
+            <a href="detalhes/vietna.html" class="detalhes">
                 <p>Ver detalhes</p>
             </a>
         </div>

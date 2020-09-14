@@ -1,37 +1,78 @@
 body {
-    background-color: rgb(155, 184, 221);
+    background-color: #9bb8dd;
+}
+
+#filtrar {
+    position: sticky;
+    z-index: 1;
+
+    top: 75px;
+
+    background-color: #536f94;
+
+    width: 100%;
+    height: 30px;
+
+    padding: 10px 0 5px;
+    margin-bottom: 10px;
+
+    text-align: center;
+}
+
+#filtrar p {
+    display: inline;
+
+    font-size: 20px;
+    color: white;
+
+}
+
+#filtrar select {
+    padding: 2px 20px;
+
+    margin-left: 15px;
+
+    font-size: 14px;
+
+    outline: none;
+    border-radius: 50px;
+}
+
+#filtrar option {
+    border-radius: 50px;
 }
 
 section {
-    width: 80%;
+    width: 70%;
     height: 900px;
 
     margin: 0 auto;
 }
 
 #publicacoes-icone {
-    background-color: #1c5d80;
     border-bottom: rgb(233, 203, 103) 4px solid;
 
     border-radius: 5px 5px 0 0;
+    position: relative;
 }
 
 .publicacao {
-    width: 32%;
-    min-height: 450px;
+    width: 32.3%;
+    min-height: 500px;
 
     float: left;
-    margin: 20px 0.5% 0;
+    margin: 0 0.5% 10px;
 
     background-color: honeydew;
     box-shadow: rgba(0, 0, 0, 0.432) 0px 0px 5px;
 
     box-sizing: border-box;
-    padding: 10px;
+    padding: 10px 25px;
 
     border-radius: 5px;
 
     font-size: 16.5px;
+    position: relative;
 }
 
 .publicacao a {
@@ -53,11 +94,7 @@ section {
     text-decoration-color: #cf6d6d;
 }
 
-#localizacao {
-    text-align: center;
-}
-
-#localizacao a {
+.localizacao a {
     margin: 10px 0 0 0;
 
     display: flex;
@@ -66,12 +103,13 @@ section {
     align-items: center;
 }
 
-#localizacao img {
+.localizacao img {
     width: 25px;
+    
     margin: 0;
 }
 
-#localizacao p {
+.localizacao p {
     max-width: 70%;
     margin: 0;
 
@@ -81,9 +119,10 @@ section {
 }
 
 .descricao {
-    margin-top: 20px;
+    margin-top: 40px;
 
     font-family: Arial;
+    text-align: justify;
 }
 .detalhes {
     text-align: center;
@@ -91,13 +130,44 @@ section {
 .detalhes p {
     color: #003088;
     
-    margin-top: 20px;
-    
-    font-size: 20px;
+    font-size: 16px;
     font-family: Arial;
+
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
 }
 
 .detalhes p:hover {
     text-decoration: underline;
     text-decoration-color: #3d68b9;
+}
+
+@media screen and (max-width: 1200px) {
+    
+    section {
+        width: 80%;
+    }
+    
+    .publicacao {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .publicacao {
+        width: 100%;
+    }
+
+    #filtrar select {
+        padding: 2px;
+    
+        margin-left: 5px;
+    
+        font-size: 10pt;
+    
+        outline: none;
+        border-radius: 50px;
+    }
+    
 }

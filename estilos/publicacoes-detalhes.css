@@ -1,0 +1,143 @@
+body {
+    background-color: #9bb8dd;
+}
+
+#detalhes {
+    width: 35%;
+    margin: 20px auto;
+
+    border-radius: 10px;
+    padding: 2vw 5vw;
+
+    font-size: 20px;
+    font-family: 'Hind Madurai', sans-serif;
+    
+    background-color: #d9d9d9;
+}
+
+header {
+    text-align: center;
+
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+h4 {
+    margin: 50px 0 30px;
+}
+
+p {
+    font-size: 18px;
+
+    margin: 0 0 10px 25px;
+}
+
+.fontes {
+    font-size: medium;
+
+    margin: 30px 0 10px 25px;
+}
+.fontes a {
+    display: block;
+}
+.video {
+    text-align: center;
+}
+
+.video iframe {
+    width: 72%;
+
+    margin-top: 30px;
+}
+
+.mapa iframe {
+    width: 70%;
+    height: 20vh;
+
+    margin: 0 0 10px 25px;
+}
+
+.ajuda p {
+    padding-right: 8px;
+    margin: 0 0 10px 75px;
+}
+
+.ajuda li {
+    font-size: 18px;
+
+    margin: 50px 0 10px 25px;
+}
+
+.ajuda a {
+    font-size: 18px;
+}
+
+#email {
+    display: inline;
+}
+
+#endereco {
+    width: fit-content;
+    margin: 0 auto;
+
+    font-size: 18px;
+
+    border: 1px #5a5a5a solid;
+    padding: 7px;
+}
+
+.doacoes-icone {
+    text-align: center;
+}
+
+.doacoes-icone img {
+    width: 100px;
+    height: 100px;
+
+    margin-top: 20px;
+} 
+
+#grafico {
+    text-align: center;
+
+    margin-top: 30px;
+}
+
+#grafico img {
+    width: 80%;
+}
+
+@media screen and (max-width: 1500px) {
+    #detalhes {
+        width: 60%;
+    }
+
+    .video iframe {
+        width: 80%;
+    
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #detalhes {
+        width: 80%;
+    }
+
+    .video iframe {
+        width: 90%;
+        height: 200px;
+    
+        margin-top: 30px;
+    }
+
+    .ajuda p {
+        margin: 0 0 10px 40px;
+    }
+    
+    .ajuda li {
+        font-size: 18px;
+    
+        margin: 50px 0 10px 15px;
+    }
+}

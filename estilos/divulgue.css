@@ -1,6 +1,127 @@
+body {
+    background-color: #9bb8dd;
+}
+
 #divulgue-icone {
-    background-color: #1c5d80;
-    border-bottom: rgb(233, 203, 103) 4px solid;
+    border-bottom: #e9cb67 4px solid;
 
     border-radius: 5px 5px 0 0;
+}
+
+#formulario {
+    width: 35%;
+    margin: 20px auto;
+
+    border-radius: 10px;
+    padding: 2vw 5vw;
+
+    font-size: 20px;
+    font-family: 'Hind Madurai', sans-serif;
+    
+    background-color: #d9d9d9;
+}
+
+input,
+textarea {
+
+    width: 100%;
+    margin-top: 5px;
+    padding: 1% 0.7% 0.3%;
+    
+    font-size: 17px;
+
+    border: none;
+    border-radius: 3px;
+    outline: none;
+
+    resize: vertical;
+}
+
+input:focus {
+    border-bottom: 2px #457b9d solid;
+    border-radius: 0 0 3px 3px;
+}
+
+textarea:focus {
+    border-bottom: 2px #457b9d solid;
+    border-radius: 0 0 3px 3px;
+}
+
+#fontes {
+    height: 50px;
+}
+
+#ajuda {
+    height: 70px;
+}
+
+#input-imagens {
+    font-size: 1.6vh;
+}
+
+#input-imagens:focus {
+    border-bottom: none;
+    border-radius: 0;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+#button-enviar {
+    text-align: center;
+
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+button {
+    width: 18vw;
+    height: 5vh;
+
+    font-size: 25px;
+    font-family: 'Hind Siliguri', sans-serif;
+
+    cursor: pointer;
+
+    color: white;
+    background-color: #5cb4dd;
+
+    border: none;
+    border-radius: 5px;
+    /* box-shadow: black 0px 0.5px 3px; */
+    box-shadow: 0 0.8px 4px rgb(19, 19, 19);
+}
+
+button:hover {
+    background-color: #57b9e2;
+
+    box-shadow: 0 1px 10px #3f3e3e;
+}
+
+@media screen and (max-width: 1600px) {
+
+    #formulario {
+        width: 60%;
+
+        padding: 4vw 5vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    button {
+        width: 80%;
+        height: 4vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #formulario {
+        font-size: 5vw;
+    }
+
+    button {
+        width: 80%;
+    }
 }

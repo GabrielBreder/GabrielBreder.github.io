@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Hind+Siliguri:wght@500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="estilos/menu.css">
     <link rel="stylesheet" href="estilos/divulgue.css">
@@ -10,26 +12,69 @@
 </head>
 <body>
     <div id="menu">
-        <ul>
-            <li>
-                <a class="icones-menu">
-                    <img class="icons" src="images/sobre.svg" alt="sobre">
-                    <p>Sobre</p>
-                </a>
-            </li>
-            <li>
-                <a  class="icones-menu" href="publicacoes.html">
-                    <img class="icons" src="images/publicacao.svg" alt="publicações">
-                    <p>Publicações</p>
-                </a>
-            </li>
-            <li>
-                <a class="icones-menu" id="divulgue-icone">
-                    <img class="icons" src="images/divulgue.svg" alt="">
-                    <p>Divulgue</p>
-                </a>
-            </li>
-        </ul>
+        <div id="div-logo">
+            <a href="index.html">
+                <img id="icone-logo" src="images/logo.png" alt="erradica">
+            </a>
+        </div>
+        <div id="paginas">
+            <ul>
+                <li>
+                    <a class="icones-menu" id="sobre-icone" href="sobre.html">
+                        <img class="icons" src="images/sobre.svg" alt="sobre">
+                        <p>Sobre</p>
+                    </a>
+                </li>
+                <li>
+                    <a  class="icones-menu" href="publicacoes.html">
+                        <img class="icons" src="images/publicacao.svg" alt="publicações">
+                        <p>Publicações</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="icones-menu" id="divulgue-icone">
+                        <img class="icons" src="images/divulgue.svg" alt="divulgue">
+                        <p>Divulgue</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
+
+    <section id="formulario">
+        <form>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="" id="input-nome">
+            </div>
+            <div>
+                <label for="local">Local:</label>
+                <input type="text" name="" id="input-local">
+            </div>
+            <div id="input-descricao">
+                <label for="descricao">Descrição detalhada:</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="fontes">Fontes usadas:</label>
+                <textarea name="" id="fontes" cols="30" rows="10" placeholder="https://"></textarea>
+            </div>
+            <div>
+                <label for="imagem">Imagem:</label>
+                <input type="file" name="" id="input-imagens">
+            </div>
+            <div>
+                <label for="videos">Vídeo:</label>
+                <input type="url" name="" id="input-videos" placeholder="https://">
+            </div>
+            <div id="input-ajuda">
+                <label for="ajuda">Como as pessoas poderão ajudar?</label>
+                <textarea name="" id="ajuda" cols="30" rows="10"></textarea>
+            </div>
+            <div id="button-enviar">
+                <button>Enviar</button>
+            </div>
+        </form>
+    </section>
 </body>
 </html>

@@ -12,6 +12,31 @@
     position: sticky;
 
     top: 0;
+    z-index: 2;
+
+    display: flex;
+}
+
+#div-logo {
+    width: 90%;
+}
+
+#div-logo img {
+    /* width: 200px;
+    height: 55px; */
+
+    width: 154px;
+    height: 47px;
+}
+
+#icone-logo {
+    width: 27%;
+
+    margin:  15px;
+}
+
+#paginas {
+    width: 50%;
 }
 
 ul {
