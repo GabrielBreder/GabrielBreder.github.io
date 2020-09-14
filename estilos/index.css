@@ -18,6 +18,7 @@ section {
 
 #landing {
     background-image: url(images/fundo.jpg);
+    background-color: red;
     background-size: cover;
     background-repeat: no-repeat;
 
