@@ -110,6 +110,11 @@ li {
 
     text-align: end;
 }
+
+.img-publicacoes-divulgue .celular {
+    display: none;
+}
+
 h3 {
     margin-top: 50px;
     margin-bottom: 15px;
@@ -128,5 +133,15 @@ h3 {
 @media screen and (max-width: 600px) {
     section {
         width: 85%;
+    }
+
+    .img-publicacoes-divulgue .pc {
+        display: none;
+    }
+
+    .img-publicacoes-divulgue .celular {
+        display: unset;
+
+        width: 400px;
     }
 } 

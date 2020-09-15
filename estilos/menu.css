@@ -114,6 +114,7 @@ li {
         height: 100%;
     
         cursor: pointer;
+
     }
     
     input[type="checkbox"]:checked ~ nav {
@@ -150,10 +151,6 @@ li {
     }
     
     input[type="checkbox"] {
-        display: none;
-    }
-    
-    .img-publicacoes-divulgue img {
         display: none;
     }
 }
