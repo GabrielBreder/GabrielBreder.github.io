@@ -75,7 +75,8 @@ a {
 
 #conteudo {
     width: 50%;
-
+    
+    margin-top: 50px;
     margin-left: 47%;
 
     padding: 15% 0;
