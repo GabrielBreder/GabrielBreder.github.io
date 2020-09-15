@@ -149,4 +149,9 @@ li {
     
         margin: 50px 0 10px 15px;
     }
+
+    .descricao p {
+        margin: 0;
+        margin-bottom: 10px;
+    }
 }

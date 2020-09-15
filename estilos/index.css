@@ -164,9 +164,6 @@ a {
 }
 
 @media screen and (max-width: 500px) {
-    #logo {
-        margin: 0;
-    }
 
     #conteudo {
         padding: 0;
@@ -174,5 +171,15 @@ a {
 
     #texto {
         margin: 10% 0;
+        width: 150%;
+    }
+
+    #comecar {
+        width: 200px;
+        height: 70px;
+    }
+
+    #comecar  p{
+        font-size: 22pt;
     }
 }

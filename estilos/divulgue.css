@@ -118,17 +118,12 @@ button:hover {
 
     button {
         width: 80%;
-        height: 4vh;
+        height: 50%;
     }
 }
 
 @media screen and (max-width: 500px) {
     #formulario {
         font-size: 5vw;
-    }
-
-    button {
-        width: 80%;
-        height: 50%;
     }
 }
