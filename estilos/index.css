@@ -88,16 +88,6 @@ a {
 }
 
 @media screen and (max-width: 1600px) {
-    #landing {
-        padding: 10% 0;
-    }
-    #logo {
-    
-        width: 80%;
-    
-        margin: 10% auto 0;
-
-    }
 
     #erradica {
         margin: 0;
@@ -114,7 +104,7 @@ a {
 
     #conteudo {
         width: 50%;
-       
+    
         margin-left: 25%;
         padding: 0;
         text-align: center;
@@ -132,6 +122,7 @@ a {
 @media screen and (max-width: 1200px) {
     #logo {
         width: 100%;
+        margin-top: 50px;
     }
 
     #inicio {
@@ -184,5 +175,21 @@ a {
 
     #comecar  p{
         font-size: 22pt;
+    }
+}
+/* 
+@media screen and (max-height: 700px) {
+    #contedo {
+        height: 200px;
+    }
+    
+    #landing {
+        padding: 0;
+    }
+} */
+
+@media screen and (min-height: 700px) {
+    #logo {
+        margin: 10% auto 0;
     }
 }
