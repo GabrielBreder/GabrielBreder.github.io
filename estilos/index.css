@@ -11,44 +11,48 @@ section {
 }
 
 #logo {
-    width: 40%;
-
-    margin: 20% 10px 0 60%;
+    width: 60%;
 }
 
 #landing {
     background-image: url(../images/fundo.jpg);
-    
     background-size: cover;
     background-repeat: no-repeat;
+
+    background-position: 40%;
 
     height: 1100px;
 }
 
-#erradica {
+h2 {
     text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
 
-    margin-right: 150px;
+    padding: 10px;
+
+    font-size: 20pt;
 }
 
-#inicio {
-    width: fit-content;
-    padding: 0px 50px 0 50%;
+#texto {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    margin-right: 5%;
+
+    background-color: #ffffffbd;
 }
 
 #comecar {
-
-    background-color:#ffffff;
+    background-color:#ffffffda;
     
     border: white 2px solid;
 
     width: 300px;
     height: 80px;
 
-    margin: 0 auto;
-    text-align: center;
-
     border-radius: 30px;
+    border: none;
+    /* box-shadow: black 0px 0.5px 3px; */
+    box-shadow: 0 1px 5px rgb(48, 48, 48);
 
     cursor: pointer;
 }
@@ -59,17 +63,37 @@ a {
 }
 
 #comecar  p{
-    font-size: x-large;
-    font-weight: 700;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 25pt;
 
+    position: relative;
+    top: 25%;
+}
 
-    margin-top: 28px;
+#comecar:hover {
+    background-color: #d0e8f5;
+
+    box-shadow: 0 1px 10px #3f3e3e;
+}
+
+#conteudo {
+    width: 50%;
+
+    margin-left: 47%;
+
+    padding: 13% 0 0 0;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 @media screen and (max-width: 1600px) {
     #logo {
     
-        width: 40%;
+        width: 80%;
     
         margin: 100px auto 0;
 
@@ -84,18 +108,39 @@ a {
         margin: 10% 0;
     }
 
-    #inicio h2 {
-        background-color: #ffffff8f;
-        padding: 10px;
+    #comecar {
+        margin:0 auto;
+    }
+
+    #conteudo {
+        width: 50%;
+    
+        margin-left: 25%;
+        padding-top: 10%;
+        text-align: center;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
 @media screen and (max-width: 1200px) {
-    /* #landing {
-        height: 700px;
-    } */
+    #logo {
+        width: 100%;
+    }
 
     #inicio {
         padding: 0 20%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #logo {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 15pt;
     }
 }
