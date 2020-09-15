@@ -113,7 +113,7 @@ a {
         width: 50%;
     
         margin-left: 25%;
-        
+        padding-top: 5%;
         text-align: center;
     
         display: flex;
@@ -143,12 +143,6 @@ a {
 }
 
 @media screen and (max-width: 500px) {
-    #logo {
-        margin: 0;
-    }
-}
-
-@media screen and (max-height: 800px) {
     #logo {
         margin: 0;
     }
