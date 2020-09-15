@@ -179,9 +179,6 @@ section {
 
 @media screen and (max-width: 530px) {
     #filtrar {
-        text-align: start;
-        width: 110%;
-
         padding: 10px 0 0 0;
     }
     

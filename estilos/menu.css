@@ -155,3 +155,13 @@ li {
     }
 }
 
+@media screen and (max-width: 300px) {
+    
+    #div-logo img {
+        width: 100px;
+        height: 40px;
+
+        margin: 25px 10px;
+    }
+}
+

@@ -110,6 +110,12 @@ button:hover {
 
 @media screen and (max-width: 900px) {
 
+    #formulario {
+        width: 80%;
+
+        padding: 4vw 5vw;
+    }
+
     button {
         width: 80%;
         height: 4vh;
@@ -123,5 +129,6 @@ button:hover {
 
     button {
         width: 80%;
+        height: 50%;
     }
 }
