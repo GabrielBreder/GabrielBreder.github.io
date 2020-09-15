@@ -17,6 +17,8 @@ body {
     margin-bottom: 10px;
 
     text-align: center;
+
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
 #filtrar p {
@@ -72,6 +74,7 @@ section {
     border-radius: 5px;
 
     font-size: 16.5px;
+    
     position: relative;
 }
 
@@ -115,6 +118,8 @@ section {
 
     font-family: 'Helvetica Neue';
     font-weight: 550;
+    font-size: 14pt;
+
     color: #b82828;
 }
 
@@ -130,7 +135,7 @@ section {
 .detalhes p {
     color: #003088;
     
-    font-size: 16px;
+    font-size: 14pt;
     font-family: Arial;
 
     position: absolute;
@@ -170,4 +175,27 @@ section {
         border-radius: 50px;
     }
     
+}
+
+@media screen and (max-width: 530px) {
+    #filtrar {
+        text-align: start;
+        width: 110%;
+
+        padding: 10px 0 0 0;
+    }
+    
+    #filtrar p {
+        font-size: 10pt;
+    }
+    
+    #filtrar select {
+        padding: 0px;
+        margin-left: 0px;
+    
+        font-size: 6pt;
+    
+        outline: none;
+        border-radius: 50px;
+    }
 }

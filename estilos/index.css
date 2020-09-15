@@ -3,11 +3,8 @@
     padding: 0;
 }
 
-section {
-    height: 768px;
-    width: 100%;
-
-    background-color: #457B9D;
+body {
+    overflow: hidden;
 }
 
 #logo {
