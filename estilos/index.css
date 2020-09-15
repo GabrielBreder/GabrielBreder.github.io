@@ -88,6 +88,9 @@ a {
 }
 
 @media screen and (max-width: 1600px) {
+    section {
+        padding: 10% 0;
+    }
     #logo {
     
         width: 80%;
