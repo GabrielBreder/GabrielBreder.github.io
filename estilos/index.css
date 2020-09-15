@@ -141,3 +141,15 @@ a {
         font-size: 15pt;
     }
 }
+
+@media screen and (max-width: 500px) {
+    #logo {
+        margin: 0;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    #logo {
+        margin: 0;
+    }
+}
