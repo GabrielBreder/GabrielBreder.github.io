@@ -109,8 +109,10 @@ a {
 
 @media screen and (max-width: 1200px) {
     #logo {
-        width: 100%;
-        margin-top: 50px;
+        width: 80%;
+        
+        padding-top: 50px;
+        padding-bottom: 150px;
     }
 
     #inicio {
