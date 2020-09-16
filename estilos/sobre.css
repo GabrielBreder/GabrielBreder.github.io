@@ -3,7 +3,7 @@ body {
 }
 
 #sobre-icone {
-    border-bottom: rgb(233, 203, 103) 4px solid;
+    border-bottom: #ffcc24 4px solid;
 
     border-radius: 5px 5px 0 0;
 } 
@@ -124,6 +124,67 @@ h3 {
     font-family: 'Lora', serif;
 }
 
+footer {
+    width: 100%;
+
+    background-color: #005583;
+}
+
+footer img {
+    width: 40px;
+}
+
+#desenvolvedor p {
+    background-color: rgb(31, 90, 138);
+
+    text-align: center;
+
+    padding: 10px 0;
+
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    color: white;
+}
+
+#midias {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 10px 10px 20px;
+}
+
+#midias p {
+    margin: 0 10px;
+
+    font-size: 21px;
+    font-family: Arial, sans-serif;
+
+    color: #fafafaf3;
+}
+
+#midias a {
+    text-decoration: none;
+}
+
+#midias a p:hover {
+    opacity: 70%;
+}
+
+#midias a img:hover {
+    opacity: 70%;
+}
+
+.email,
+.github,
+.whatsapp {
+    display: flex;
+
+    align-items: center;
+}
+
 @media screen and (max-width: 1500px) {
     section {
         width: 70%;
@@ -143,5 +204,20 @@ h3 {
         display: unset;
 
         width: 80%;
+    }
+
+    #desenvolvedor p {
+        font-size: 14px;
+    }
+
+    #midias p {
+        margin: 0 3px;
+    
+        font-size: 10px;
+        
+    }
+
+    footer img {
+        width: 20px;
     }
 } 

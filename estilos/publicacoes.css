@@ -52,7 +52,7 @@ section {
 }
 
 #publicacoes-icone {
-    border-bottom: rgb(233, 203, 103) 4px solid;
+    border-bottom: #ffcc24 4px solid;
 
     border-radius: 5px 5px 0 0;
     position: relative;
