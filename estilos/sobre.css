@@ -47,7 +47,7 @@ li {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-#azul {
+.azul {
     color: blue;
 }
 
@@ -184,6 +184,7 @@ footer img {
 
     align-items: center;
 }
+
 
 @media screen and (max-width: 1500px) {
     section {
